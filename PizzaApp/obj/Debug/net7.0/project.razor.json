@@ -16555,6 +16555,11 @@
   "RootNamespace": "PizzaApp",
   "Documents": [
     {
+      "FilePath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/Pages/Orders.cshtml",
+      "TargetPath": "Pages\\Orders.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/Pages/Checkout/ThankYou.cshtml",
       "TargetPath": "Pages\\Checkout\\ThankYou.cshtml",
       "FileKind": "mvc"
