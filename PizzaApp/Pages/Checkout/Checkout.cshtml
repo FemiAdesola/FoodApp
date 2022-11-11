@@ -3,3 +3,20 @@
 @{
 }
 
+@*<a class="nav-link text-dark" asp-area="" asp-page="/Checkout/ThankYou">Thank you</a>*@
+
+<h1>Your Order!</h1>
+@*for get image*@
+@{
+    var imagePath = "~/images/Pizzas/" + (@Model.ImageTitle + ".png");
+}
+<div class="align-content-center">
+    <div class="col-3 mx-auto mb-5">
+        <img src=@imagePath class="w-100" asp-append-version="true"/>
+        <p>Your order for @Model.PizzaName Pizza is ready now for pick up!</p>
+        <p>The total price for your order is: @Model.PizzaPrice€</p>
+        <br />
+        <a class="btn alert-success text-dark" asp-area="" asp-page="/Checkout/ThankYou">Confirm Order</a>
+    </div>
+</div>
+
