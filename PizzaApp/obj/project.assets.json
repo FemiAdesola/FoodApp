@@ -46,6 +46,9 @@
           }
         }
       },
+      "dbup-consolescripts/1.5.0": {
+        "type": "package"
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1172,6 +1175,20 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "dbup-consolescripts/1.5.0": {
+      "sha512": "M5KqCbHSOno8iYtYdklXbw689FVbkixNh+2cZLX2QJ+LC4D63kME+69cHa74bSDm9H7V9YSz0mDOsiWizZvG6w==",
+      "type": "package",
+      "path": "dbup-consolescripts/1.5.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dbup-consolescripts.1.5.0.nupkg.sha512",
+        "dbup-consolescripts.nuspec",
+        "tools/dbup-consolescripts.psm1",
+        "tools/init.ps1"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3458,7 +3475,8 @@
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
+      "dbup-consolescripts >= 1.5.0"
     ]
   },
   "packageFolders": {
@@ -3512,6 +3530,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "dbup-consolescripts": {
+            "target": "Package",
+            "version": "[1.5.0, )"
           }
         },
         "imports": [

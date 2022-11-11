@@ -16,6 +16,7 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="dbup-consolescripts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
@@ -30,5 +31,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
   </ItemGroup>
 </Project>

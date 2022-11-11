@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ZST6U3zgBMw+lu6G7EqpwBk1sqLwTSS3ohFXfGfr0V/UYbVOA4Svjj1xQSTuQa2qoVdQ40OKzt7N0Bz6kpbmCQ==",
+  "dgSpecHash": "FpXOmbz/I+PHwyfQ8MoVq4Bh2sZ0uQtySbHzTmQ+vR6z2kLB2UA4qenAIvbMnEY+2Qpes8ISUKcVao19CPSD+g==",
   "success": true,
   "projectFilePath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
   "expectedPackageFiles": [
     "/Users/bc-macair033/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/bc-macair033/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/bc-macair033/.nuget/packages/dbup-consolescripts/1.5.0/dbup-consolescripts.1.5.0.nupkg.sha512",
     "/Users/bc-macair033/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/bc-macair033/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/bc-macair033/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
