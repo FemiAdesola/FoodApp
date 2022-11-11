@@ -1,7 +1,6 @@
-﻿<Properties StartupConfiguration="{C15BF8B7-CCF3-4806-B3B8-2460AB2A2E46}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{C31517CE-D641-479D-AEA4-FF09166455F0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Forms/CustomPizza.cshtml">
     <Files>

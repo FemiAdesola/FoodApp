@@ -1,0 +1,36 @@
+services:
+  pizzaapp:
+    build:
+      context: /Users/bc-macair033/Projects/PizzaApp
+      dockerfile: PizzaApp/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: PizzaApp
+      target: base
+    container_name: PizzaApp
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: pizzaapp:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net7.0/PizzaApp.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - /Users/bc-macair033/Projects/PizzaApp/PizzaApp:/app:rw
+    - /Users/bc-macair033/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/bc-macair033/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/bc-macair033/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+    - /Users/bc-macair033/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/bc-macair033/Projects/PizzaApp:/src:rw
+version: '3.4'
