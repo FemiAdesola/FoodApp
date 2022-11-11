@@ -14,7 +14,7 @@ namespace PizzaApp.Models
         public bool Cheese { get; set; }
         public bool Lohi { get; set; }
         public bool Mushroom { get; set; }
-        public bool PineApple { get; set; }
+        public bool Pineapple { get; set; }
 
         public float FinalPrice { get; set; }
     }

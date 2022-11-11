@@ -29,7 +29,7 @@ namespace PizzaApp.Pages.Forms
             if (Pizza.Pepper) PizzaPrice += 1;
             if (Pizza.Cheese) PizzaPrice += 1;
             if (Pizza.Tunna) PizzaPrice += 1;
-            if (Pizza.PineApple) PizzaPrice += 5;
+            if (Pizza.Pineapple) PizzaPrice += 5;
 
             return RedirectToPage("/Checkout/Checkout",
                 new {Pizza.PizzaName, PizzaPrice });
