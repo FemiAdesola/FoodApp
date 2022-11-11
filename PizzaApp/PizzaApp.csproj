@@ -12,10 +12,12 @@
     <None Remove="Pages\Checkout\" />
     <None Remove="Pages\Forms\" />
     <None Remove="Models\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
     <Folder Include="Pages\Forms\" />
     <Folder Include="Models\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>
