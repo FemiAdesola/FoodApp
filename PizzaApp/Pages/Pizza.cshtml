@@ -15,8 +15,10 @@
         <div class="row">
             <div class="col-12 mb-5 mt-5 rounded">
                 <div class="w-100 row makeYourOwnDiv">
-                    <div class="col-4">
-                        <img src="~/images/Pizzas/Create.png" class="w-100" />
+                    <div class="col-4 pizza-img">
+                        <a asp-area="" asp-page="Forms/CustomPizza">
+                            <img src="~/images/Pizzas/Create.png" class="w-100" />
+                        </a>
                     </div>
                     <div class="col-8 align-items-center">
                         <div class="align-middle makeYourOwnText">
@@ -33,15 +35,23 @@
             {
                 @*for the image*@
                 var imagePath = "~/images/Pizzas/" + (pizza.ImageTitle + ".png");
-                <div class="col-4 mb-5">
-                    <img src="@imagePath" class="w-100 rounded"  asp-append-version="true" />
-                    <a class="btn  btn-outline-primary mt-5"
-                       asp-area=""
-                       asp-page="Checkout/Checkout"
-                       asp-route-ImageTitle="@pizza.ImageTitle"
-                       asp-route-PizzaPrice="@pizza.FinalPrice">Get this Pizza</a>
-                    <br />
-                </div>
+        <div class="col-4 mb-5">
+            @*<img src="@imagePath" class="w-100 rounded"  asp-append-version="true" />*@
+            @*<a class="btn  btn-outline-primary mt-5"
+        asp-area=""
+        asp-page="Checkout/Checkout"
+        asp-route-ImageTitle="@pizza.ImageTitle"
+        asp-route-PizzaPrice="@pizza.FinalPrice">Get this Pizza</a>*@
+
+            <a class="pizza-img"
+               asp-area=""
+               asp-page="Checkout/Checkout"
+               asp-route-ImageTitle="@pizza.ImageTitle"
+               asp-route-PizzaPrice="@pizza.FinalPrice">
+                <img src="@imagePath" class="w-100 rounded" asp-append-version="true" />
+            </a>
+            <br />
+        </div>
             }
         </div>
     </div>
