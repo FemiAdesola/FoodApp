@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using PizzaApp.Data;
+using PizzaApp.Models;
 
 namespace PizzaApp.Pages.Checkout
 {
@@ -14,6 +16,14 @@ namespace PizzaApp.Pages.Checkout
         public string PizzaName { get; set; }
         public float PizzaPrice { get; set; }
         public string ImageTitle { get; set; }
+
+        // database
+        private readonly ApplicationDbContext _context;
+        public CheckoutModel(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        //
 
         public void OnGet()
         {
@@ -26,6 +36,19 @@ namespace PizzaApp.Pages.Checkout
             {
                 ImageTitle = "Create";
             }
+
+
+            // database
+            PizzaOrder pizzaOrder = new PizzaOrder();
+            pizzaOrder.PizzaName = PizzaName;
+            pizzaOrder.BasePrice = PizzaPrice;
+
+            _context.PizzaOrders.Add(pizzaOrder);
+            _context.SaveChanges();
+            //
         }
+
+       
+     
     }
 }
