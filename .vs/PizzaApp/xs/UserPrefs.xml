@@ -1,43 +1,52 @@
-﻿<Properties StartupConfiguration="{C31517CE-D641-479D-AEA4-FF09166455F0}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+﻿<Properties StartupConfiguration="{C15BF8B7-CCF3-4806-B3B8-2460AB2A2E46}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Forms/CustomPizza.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" />
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="31" Column="2" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="17" Column="70" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="43" Column="46" />
       <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml" />
-      <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/Pizza.cshtml" Line="32" Column="8" />
-      <File FileName="PizzaApp/Pages/Pizza.cshtml.cs" Line="17" Column="1" />
-      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml" Line="14" Column="7" />
-      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" Line="21" Column="1" />
-      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" Line="35" Column="23" />
+      <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Pizza.cshtml" Line="32" Column="19" />
+      <File FileName="PizzaApp/Pages/Pizza.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml" Line="11" Column="27" />
+      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" Line="58" Column="1" />
       <File FileName="PizzaApp/Pages/Index.cshtml" Line="17" Column="1" />
-      <File FileName="PizzaApp/wwwroot/css/site.css" Line="65" Column="1" />
-      <File FileName="PizzaApp/Models/PizzasModel.cs" Line="23" Column="1" />
+      <File FileName="PizzaApp/wwwroot/css/site.css" />
+      <File FileName="PizzaApp/Models/PizzasModel.cs" />
+      <File FileName="PizzaApp/Program.cs" />
+      <File FileName="PizzaApp/Models/PizzaOrder.cs" />
+      <File FileName="PizzaApp/appsettings.json" />
+      <File FileName="PizzaApp/appsettings.Development.json" />
+      <File FileName="PizzaApp/Dockerfile" />
+      <File FileName="PizzaApp/Pages/Orders.cshtml" />
+      <File FileName="PizzaApp/Pages/Orders.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/_ViewImports.cshtml" />
+      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PizzaApp" expanded="True">
+            <Node name="docker-compose" expanded="True" />
             <Node name="PizzaApp" expanded="True">
-              <Node name="Models" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Checkout" expanded="True">
                   <Node name="Checkout.cshtml" expanded="True" />
-                  <Node name="ThankYou.cshtml" expanded="True" />
-                </Node>
-                <Node name="Forms" expanded="True">
-                  <Node name="CustomPizza.cshtml" expanded="True" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" />
-                <Node name="Pizza.cshtml" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True">
+                  <Node name="Pizzas" expanded="True" />
+                </Node>
               </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

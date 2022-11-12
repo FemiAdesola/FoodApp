@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sY+CwwMFdS02GsyQ1KPqvh48A1GFDFqPMJw38oP7ZBQ=",
+  "Hash": "JBoKqjpNDE5F4U8TjCQw8GipUyTq5cOCxgUaEKeaLg4=",
   "Source": "PizzaApp",
   "BasePath": "_content/PizzaApp",
   "Mode": "Default",
@@ -136,6 +136,23 @@
       "OriginalItemSpec": "wwwroot/images/Main.png"
     },
     {
+      "Identity": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/.DS_Store",
+      "SourceId": "PizzaApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/",
+      "BasePath": "_content/PizzaApp",
+      "RelativePath": "images/Pizzas/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Pizzas/.DS_Store"
+    },
+    {
       "Identity": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Bolognese.png",
       "SourceId": "PizzaApp",
       "SourceType": "Discovered",
@@ -219,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/Pizzas/Hawaiian.png"
+    },
+    {
+      "Identity": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita copy.png",
+      "SourceId": "PizzaApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/",
+      "BasePath": "_content/PizzaApp",
+      "RelativePath": "images/Pizzas/Margerita copy.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/Pizzas/Margerita copy.png"
     },
     {
       "Identity": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita.png",

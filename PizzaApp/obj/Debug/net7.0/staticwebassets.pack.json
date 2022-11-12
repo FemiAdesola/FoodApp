@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/images/Main.png"
     },
     {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/.DS_Store",
+      "PackagePath": "staticwebassets/images/Pizzas/.DS_Store"
+    },
+    {
       "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Bolognese.png",
       "PackagePath": "staticwebassets/images/Pizzas/Bolognese.png"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Hawaiian.png",
       "PackagePath": "staticwebassets/images/Pizzas/Hawaiian.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita copy.png",
+      "PackagePath": "staticwebassets/images/Pizzas/Margerita copy.png"
     },
     {
       "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita.png",
