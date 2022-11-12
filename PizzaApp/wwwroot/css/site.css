@@ -66,3 +66,7 @@ body {
 .pizza-img :hover {
     transform:scale(1.05)
 }
+
+.pizza-img2 :hover {
+    transform: scale(0.9)
+}
