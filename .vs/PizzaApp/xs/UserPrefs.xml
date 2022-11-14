@@ -3,32 +3,32 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Checkout/Checkout.cshtml.cs">
     <Files>
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" />
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="47" Column="1" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="1" Column="1" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="37" Column="39" />
       <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml" />
       <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml.cs" />
       <File FileName="PizzaApp/Pages/Pizza.cshtml" Line="16" Column="51" />
-      <File FileName="PizzaApp/Pages/Pizza.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Pizza.cshtml.cs" Line="1" Column="1" />
       <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml" Line="79" Column="7" />
-      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" />
-      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" Line="58" Column="1" />
+      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" Line="1" Column="1" />
+      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" />
       <File FileName="PizzaApp/Pages/Index.cshtml" />
-      <File FileName="PizzaApp/wwwroot/css/site.css" Line="72" Column="2" />
-      <File FileName="PizzaApp/Models/PizzasModel.cs" />
+      <File FileName="PizzaApp/wwwroot/css/site.css" />
+      <File FileName="PizzaApp/Models/PizzasModel.cs" Line="1" Column="1" />
       <File FileName="PizzaApp/Program.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Models/PizzaOrder.cs" Line="1" Column="1" />
+      <File FileName="PizzaApp/Models/PizzaOrder.cs" Line="11" Column="1" />
       <File FileName="PizzaApp/appsettings.json" Line="14" Column="1" />
       <File FileName="PizzaApp/appsettings.Development.json" Line="11" Column="1" />
-      <File FileName="PizzaApp/Dockerfile" />
-      <File FileName="PizzaApp/Pages/Orders.cshtml" />
-      <File FileName="PizzaApp/Pages/Orders.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Orders.cshtml" Line="1" Column="1" />
+      <File FileName="PizzaApp/Pages/Orders.cshtml.cs" Line="21" Column="28" />
       <File FileName="PizzaApp/Pages/_ViewImports.cshtml" />
       <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml.css" />
-      <File FileName="PizzaApp/Migrations/20221114081831_PizzaOrder.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="PizzaApp/Migrations/20221114081831_PizzaOrder.cs" />
+      <File FileName="PizzaApp/Migrations/ApplicationDbContextModelSnapshot.cs" />
+      <File FileName="PizzaApp/Data/ApplicationDbContext.cs" Line="15" Column="3" />
+      <File FileName="PizzaApp/Dockerfile" Line="16" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -38,6 +38,18 @@
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Checkout" expanded="True">
+                  <Node name="Checkout.cshtml" expanded="True">
+                    <Node name="Checkout.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Forms" expanded="True">
+                  <Node name="CustomPizza.cshtml" expanded="True" />
+                </Node>
+                <Node name="Orders.cshtml" expanded="True" />
+                <Node name="Pizza.cshtml" expanded="True" />
+              </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>

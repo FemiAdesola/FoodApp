@@ -28,11 +28,41 @@ namespace PizzaApp.Pages.Checkout
         public void OnGet()
         {
 
-            if (string.IsNullOrWhiteSpace(PizzaName))
+            if (
+             PizzaName == "Mushroom" ||
+             PizzaName == "Bolognese" ||
+             PizzaName == "Hasaiian" ||
+             PizzaName == "Carbonara" ||
+             PizzaName == "Pepperoni" ||
+             PizzaName == "Margerita" ||
+             PizzaName == "MeatFeast" ||
+             PizzaName == "Seafood" ||
+             PizzaName == "Vegetarian"
+             )
+            {
+                PizzaName = PizzaName;
+            }
+            else if (string.IsNullOrWhiteSpace(PizzaName))
             {
                 PizzaName = "Custom";
             }
-            if (string.IsNullOrWhiteSpace(ImageTitle))
+
+
+            //if (
+            //    ImageTitle == "Mushroom" ||
+            //    ImageTitle =="Bolognese" ||
+            //    ImageTitle == "Hasaiian" ||
+            //    ImageTitle == "Carbonara" ||
+            //    ImageTitle == "Pepperoni" ||
+            //    ImageTitle == "Margerita" ||
+            //    ImageTitle == "MeatFeast" ||
+            //    ImageTitle == "Seafood" ||
+            //     ImageTitle == "Vegetarian"
+            //    )
+            //{
+            ////    ImageTitle = ImageTitle;
+            //}
+           if (string.IsNullOrWhiteSpace(ImageTitle))
             {
                 ImageTitle = "Create";
             }
