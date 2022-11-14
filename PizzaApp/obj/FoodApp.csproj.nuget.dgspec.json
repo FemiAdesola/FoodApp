@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/FoodApp.csproj",
-        "projectName": "FoodApp",
+        "projectName": "PizzaApp",
         "projectPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/FoodApp.csproj",
         "packagesPath": "/Users/bc-macair033/.nuget/packages/",
         "outputPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/obj/",
@@ -60,6 +60,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "NetlifySharp": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "dbup-consolescripts": {
               "target": "Package",

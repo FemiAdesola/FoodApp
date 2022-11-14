@@ -23,6 +23,7 @@
     <None Remove="Docker.DotNet" />
     <None Remove="Font.Awesome" />
     <None Remove="font-awesome" />
+    <None Remove="NetlifySharp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
@@ -41,5 +42,6 @@
     <PackageReference Include="Docker.DotNet" Version="3.125.12" />
     <PackageReference Include="Font.Awesome" Version="5.15.4" />
     <PackageReference Include="font-awesome" Version="4.7.0" />
+    <PackageReference Include="NetlifySharp" Version="1.1.1" />
   </ItemGroup>
 </Project>
