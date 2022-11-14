@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mv+AwynmWCt3m5u57jjiNJrSoOew6klc2w2Z7n0BLgPu5mo0qLWZFbDcuk84aJZeg4OquQDnw7M4ohgR2+Uuxg==",
+  "dgSpecHash": "R+JHakfI3ivP/Sft4/HAmqveJLmzdPoaxt7HJ2CCjmI2vhM4B82e/zQUJ1Iyo6LHp0G8YvB29CbknncacT74dg==",
   "success": true,
-  "projectFilePath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
+  "projectFilePath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/FoodApp.csproj",
   "expectedPackageFiles": [
     "/Users/bc-macair033/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/bc-macair033/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

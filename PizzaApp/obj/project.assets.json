@@ -3644,9 +3644,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
-      "projectName": "PizzaApp",
-      "projectPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
+      "projectUniqueName": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/FoodApp.csproj",
+      "projectName": "FoodApp",
+      "projectPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/FoodApp.csproj",
       "packagesPath": "/Users/bc-macair033/.nuget/packages/",
       "outputPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/obj/",
       "projectStyle": "PackageReference",

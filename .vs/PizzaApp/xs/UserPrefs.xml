@@ -1,8 +1,6 @@
 ﻿<Properties StartupConfiguration="{C15BF8B7-CCF3-4806-B3B8-2460AB2A2E46}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.FoodApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Checkout/Checkout.cshtml.cs">
     <Files>
       <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="1" Column="1" />
