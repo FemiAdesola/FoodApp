@@ -19,6 +19,7 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="dbup-consolescripts" />
+    <None Remove="Docker.DotNet" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
@@ -34,5 +35,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
+    <PackageReference Include="Docker.DotNet" Version="3.125.12" />
   </ItemGroup>
 </Project>
