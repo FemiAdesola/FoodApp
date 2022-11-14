@@ -21,60 +21,64 @@
       "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/.DS_Store",
+      "PackagePath": "staticwebassets/images/Foods/.DS_Store"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/AsortedMeat.png",
+      "PackagePath": "staticwebassets/images/Foods/AsortedMeat.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/ChickenSoup.png",
+      "PackagePath": "staticwebassets/images/Foods/ChickenSoup.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/Create.png",
+      "PackagePath": "staticwebassets/images/Foods/Create.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/Create.zip",
+      "PackagePath": "staticwebassets/images/Foods/Create.zip"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/DodoFish.png",
+      "PackagePath": "staticwebassets/images/Foods/DodoFish.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/EggPlantain.png",
+      "PackagePath": "staticwebassets/images/Foods/EggPlantain.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/MeatFeast.png",
+      "PackagePath": "staticwebassets/images/Foods/MeatFeast.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/MeatSauce.png",
+      "PackagePath": "staticwebassets/images/Foods/MeatSauce.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/Mushroom.png",
+      "PackagePath": "staticwebassets/images/Foods/Mushroom.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/PepperSoup.png",
+      "PackagePath": "staticwebassets/images/Foods/PepperSoup.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/RiceChickenDodo.png",
+      "PackagePath": "staticwebassets/images/Foods/RiceChickenDodo.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/Snacks.png",
+      "PackagePath": "staticwebassets/images/Foods/Snacks.png"
+    },
+    {
+      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Foods/VegPomoSaki.png",
+      "PackagePath": "staticwebassets/images/Foods/VegPomoSaki.png"
+    },
+    {
       "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Main.png",
       "PackagePath": "staticwebassets/images/Main.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/.DS_Store",
-      "PackagePath": "staticwebassets/images/Pizzas/.DS_Store"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Bolognese.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Bolognese.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Carbonara.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Carbonara.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Create.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Create.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Create.zip",
-      "PackagePath": "staticwebassets/images/Pizzas/Create.zip"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Hawaiian.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Hawaiian.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita copy.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Margerita copy.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Margerita.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Margerita.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/MeatFeast.png",
-      "PackagePath": "staticwebassets/images/Pizzas/MeatFeast.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Mushroom.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Mushroom.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Pepperoni.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Pepperoni.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Seafood.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Seafood.png"
-    },
-    {
-      "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/images/Pizzas/Vegetarian.png",
-      "PackagePath": "staticwebassets/images/Pizzas/Vegetarian.png"
     },
     {
       "Id": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/wwwroot/js/site.js",

@@ -11,16 +11,16 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Pizza Name</th>
+                <th>Food Name</th>
                 <th>Price</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var order in Model.PizzaOrders)
+            @foreach (var order in Model.FoodOrders)
                 {
                     <tr>
                         <td>@order.Id</td>
-                        <td>@order.PizzaName</td>
+                        <td>@order.FoodName</td>
                         <td>@order.BasePrice</td>
                     </tr>
                 }

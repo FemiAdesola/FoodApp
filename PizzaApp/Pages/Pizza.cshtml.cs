@@ -8,93 +8,95 @@ using PizzaApp.Models;
 
 namespace PizzaApp.Pages
 {
-	public class PizzaModel : PageModel
+	public class FoodModel : PageModel
     {
         //temPizzaDB represent database's name
-        public List<PizzasModel> temPizzaDB = new List<PizzasModel>()
+        public List<FoodsModel> temPizzaDB = new List<FoodsModel>()
         {
-           new PizzasModel(){
-               ImageTitle="Margerita",
-               PizzaName="Margerita",
-               BasePrice = 2,
+           new FoodsModel(){
+               ImageTitle="VegPomoSaki",
+              FoodName="VegPomoSaki",
+               BasePrice = 5,
                TomatoSauce=true,
                Cheese=true,
-               FinalPrice=4},
-            new PizzasModel(){
-               ImageTitle="Bolognese",
-               PizzaName="Bolognese",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Pineapple=true,
-               Ham=true,
-               FinalPrice=10},
-             new PizzasModel(){
-               ImageTitle="Hawaiian",
-               PizzaName="Hawaiian",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Ham=true,
-               Mushroom=true,
-               Lohi=true,
-               FinalPrice=8},
-             new PizzasModel(){
-               ImageTitle="Carbonara",
-               PizzaName="Carbonara",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Mushroom=true,
-               Ham=true,
-               FinalPrice=6},
-             new PizzasModel(){
-               ImageTitle="Mushroom",
-               PizzaName="Mushroom",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Mushroom=true,
-               Pepper=true,
-               Tunna=true,
                FinalPrice=7},
-             new PizzasModel(){
-               ImageTitle="Pepperoni",
-               PizzaName="Pepperoni",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Pepper=true,
-               Ham=true,
-               Pineapple=true,
-               FinalPrice=11},
-             new PizzasModel(){
-               ImageTitle="Vegetarian",
-               PizzaName="Vegetarian",
-               BasePrice = 2,
-               TomatoSauce=true,
-               Cheese=true,
-               Mushroom=true,
-               Tunna = true,
-               FinalPrice=6},
-             new PizzasModel(){
+           new FoodsModel(){
                ImageTitle="MeatFeast",
-               PizzaName="Meatfeast",
-               BasePrice = 2,
+               FoodName="Meatfeast",
+               BasePrice = 5,
                TomatoSauce=true,
                Cheese=true,
                Beef=true,
                Pineapple=true,
                FinalPrice=10},
-             new PizzasModel(){
-               ImageTitle="Seafood",
-               PizzaName="Seafood",
-               BasePrice = 2,
+             new FoodsModel(){
+               ImageTitle="DodoFish",
+               FoodName="DodoFish",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Mushroom=true,
+               Ham=true,
+               FinalPrice=9},
+            new FoodsModel(){
+               ImageTitle="RiceChickenDodo",
+               FoodName="RiceChickenDodo",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Pineapple=true,
+               Ham=true,
+               FinalPrice=13},
+             new FoodsModel(){
+               ImageTitle="EggPlantain",
+              FoodName="EggPlantain",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Ham=true,
+               Mushroom=true,
+               Lohi=true,
+               FinalPrice=11},
+
+            new FoodsModel(){
+               ImageTitle="Mushroom",
+               FoodName="Mushroom",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Mushroom=true,
+               Pepper=true,
+               Tunna=true,
+               FinalPrice=10},
+             new FoodsModel(){
+               ImageTitle="PepperSoup",
+               FoodName="PepperSoup",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Pepper=true,
+               Ham=true,
+               Pineapple=true,
+               FinalPrice=14},
+             new FoodsModel(){
+               ImageTitle="ChickenSoup",
+               FoodName="ChickenSoup",
+               BasePrice = 5,
+               TomatoSauce=true,
+               Cheese=true,
+               Mushroom=true,
+               Tunna = true,
+               FinalPrice=9},
+             
+             new FoodsModel(){
+               ImageTitle="AsortedMeat",
+               FoodName="AsortedMeat",
+               BasePrice = 5,
                TomatoSauce=true,
                Cheese=true,
                Lohi=true,
                Pepper=true,
-               FinalPrice=7},
+               FinalPrice=10},
         };
         public void OnGet()
         {

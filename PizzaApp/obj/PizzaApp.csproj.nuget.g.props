@@ -18,6 +18,7 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">/Users/bc-macair033/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <Pkgfont-awesome Condition=" '$(Pkgfont-awesome)' == '' ">/Users/bc-macair033/.nuget/packages/font-awesome/4.7.0</Pkgfont-awesome>
     <Pkgdbup-consolescripts Condition=" '$(Pkgdbup-consolescripts)' == '' ">/Users/bc-macair033/.nuget/packages/dbup-consolescripts/1.5.0</Pkgdbup-consolescripts>
   </PropertyGroup>
 </Project>

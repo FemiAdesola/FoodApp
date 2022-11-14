@@ -20,6 +20,8 @@
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
     <None Remove="dbup-consolescripts" />
     <None Remove="Docker.DotNet" />
+    <None Remove="Font.Awesome" />
+    <None Remove="font-awesome" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Checkout\" />
@@ -36,5 +38,7 @@
     </PackageReference>
     <PackageReference Include="dbup-consolescripts" Version="1.5.0" />
     <PackageReference Include="Docker.DotNet" Version="3.125.12" />
+    <PackageReference Include="Font.Awesome" Version="5.15.4" />
+    <PackageReference Include="font-awesome" Version="4.7.0" />
   </ItemGroup>
 </Project>

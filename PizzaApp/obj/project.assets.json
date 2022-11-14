@@ -67,6 +67,12 @@
           }
         }
       },
+      "font-awesome/4.7.0": {
+        "type": "package"
+      },
+      "Font.Awesome/5.15.4": {
+        "type": "package"
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1237,6 +1243,81 @@
         "lib/netstandard2.0/Docker.DotNet.pdb",
         "lib/netstandard2.1/Docker.DotNet.dll",
         "lib/netstandard2.1/Docker.DotNet.pdb"
+      ]
+    },
+    "font-awesome/4.7.0": {
+      "sha512": "MCuSOl63d8b9Etn7Jm4FJS1lp8d8W9fGwQ6xu5SqrRu8e/p+FZv2a8W/LguziecV1ZpTqZPamG5nfmZs28SahA==",
+      "type": "package",
+      "path": "font-awesome/4.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/css/font-awesome.css",
+        "content/css/font-awesome.min.css",
+        "content/fonts/FontAwesome.otf",
+        "content/fonts/fontawesome-webfont.eot",
+        "content/fonts/fontawesome-webfont.svg",
+        "content/fonts/fontawesome-webfont.ttf",
+        "content/fonts/fontawesome-webfont.woff",
+        "content/fonts/fontawesome-webfont.woff2",
+        "font-awesome.4.7.0.nupkg.sha512",
+        "font-awesome.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Font.Awesome/5.15.4": {
+      "sha512": "Okg91rA7RWbd+eKyBNNnvlvzFee7A4yIi0WdTrJMVPos1ntONAVn/m96Ex9qvVXKKiroBZ1vtCXtpFMnHNof1g==",
+      "type": "package",
+      "path": "font.awesome/5.15.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Content/all.css",
+        "Content/Content/all.min.css",
+        "Content/Content/brands.css",
+        "Content/Content/brands.min.css",
+        "Content/Content/fontawesome.css",
+        "Content/Content/fontawesome.min.css",
+        "Content/Content/regular.css",
+        "Content/Content/regular.min.css",
+        "Content/Content/solid.css",
+        "Content/Content/solid.min.css",
+        "Content/Content/svg-with-js.css",
+        "Content/Content/svg-with-js.min.css",
+        "Content/Content/v4-shims.css",
+        "Content/Content/v4-shims.min.css",
+        "Content/Scripts/fontawesome/all.js",
+        "Content/Scripts/fontawesome/all.min.js",
+        "Content/Scripts/fontawesome/brands.js",
+        "Content/Scripts/fontawesome/brands.min.js",
+        "Content/Scripts/fontawesome/conflict-detection.js",
+        "Content/Scripts/fontawesome/conflict-detection.min.js",
+        "Content/Scripts/fontawesome/fontawesome.js",
+        "Content/Scripts/fontawesome/fontawesome.min.js",
+        "Content/Scripts/fontawesome/regular.js",
+        "Content/Scripts/fontawesome/regular.min.js",
+        "Content/Scripts/fontawesome/solid.js",
+        "Content/Scripts/fontawesome/solid.min.js",
+        "Content/Scripts/fontawesome/v4-shims.js",
+        "Content/Scripts/fontawesome/v4-shims.min.js",
+        "Content/webfonts/fa-brands-400.eot",
+        "Content/webfonts/fa-brands-400.svg",
+        "Content/webfonts/fa-brands-400.ttf",
+        "Content/webfonts/fa-brands-400.woff",
+        "Content/webfonts/fa-brands-400.woff2",
+        "Content/webfonts/fa-regular-400.eot",
+        "Content/webfonts/fa-regular-400.svg",
+        "Content/webfonts/fa-regular-400.ttf",
+        "Content/webfonts/fa-regular-400.woff",
+        "Content/webfonts/fa-regular-400.woff2",
+        "Content/webfonts/fa-solid-900.eot",
+        "Content/webfonts/fa-solid-900.svg",
+        "Content/webfonts/fa-solid-900.ttf",
+        "Content/webfonts/fa-solid-900.woff",
+        "Content/webfonts/fa-solid-900.woff2",
+        "font.awesome.5.15.4.nupkg.sha512",
+        "font.awesome.nuspec"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -3549,10 +3630,12 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Docker.DotNet >= 3.125.12",
+      "Font.Awesome >= 5.15.4",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "dbup-consolescripts >= 1.5.0"
+      "dbup-consolescripts >= 1.5.0",
+      "font-awesome >= 4.7.0"
     ]
   },
   "packageFolders": {
@@ -3597,6 +3680,10 @@
             "target": "Package",
             "version": "[3.125.12, )"
           },
+          "Font.Awesome": {
+            "target": "Package",
+            "version": "[5.15.4, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -3614,6 +3701,10 @@
           "dbup-consolescripts": {
             "target": "Package",
             "version": "[1.5.0, )"
+          },
+          "font-awesome": {
+            "target": "Package",
+            "version": "[4.7.0, )"
           }
         },
         "imports": [

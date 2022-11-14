@@ -11,8 +11,8 @@ using PizzaApp.Data;
 namespace PizzaApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221114081831_PizzaOrder")]
-    partial class PizzaOrder
+    [Migration("20221114172541_FoodOrder")]
+    partial class FoodOrder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,13 +35,13 @@ namespace PizzaApp.Migrations
                     b.Property<float>("BasePrice")
                         .HasColumnType("real");
 
-                    b.Property<string>("PizzaName")
+                    b.Property<string>("FoodName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("PizzaOrders");
+                    b.ToTable("FoodOrders");
                 });
 #pragma warning restore 612, 618
         }

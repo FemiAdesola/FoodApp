@@ -32,13 +32,13 @@ namespace PizzaApp.Migrations
                     b.Property<float>("BasePrice")
                         .HasColumnType("real");
 
-                    b.Property<string>("PizzaName")
+                    b.Property<string>("FoodName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("PizzaOrders");
+                    b.ToTable("FoodOrders");
                 });
 #pragma warning restore 612, 618
         }

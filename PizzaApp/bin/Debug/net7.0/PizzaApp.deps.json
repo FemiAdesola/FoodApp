@@ -9,10 +9,12 @@
       "PizzaApp/1.0.0": {
         "dependencies": {
           "Docker.DotNet": "3.125.12",
+          "Font.Awesome": "5.15.4",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.0",
-          "dbup-consolescripts": "1.5.0"
+          "dbup-consolescripts": "1.5.0",
+          "font-awesome": "4.7.0"
         },
         "runtime": {
           "PizzaApp.dll": {}
@@ -66,6 +68,8 @@
           }
         }
       },
+      "font-awesome/4.7.0": {},
+      "Font.Awesome/5.15.4": {},
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -672,6 +676,20 @@
       "sha512": "sha512-lkDh6PUV8SIM1swPCkd3f+8zGB7Z9Am3C2XBLqAjyIIp5jQBCsDFrtbtA1QiVdFMWdYcJscrX/gzzG50kRj0jQ==",
       "path": "docker.dotnet/3.125.12",
       "hashPath": "docker.dotnet.3.125.12.nupkg.sha512"
+    },
+    "font-awesome/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCuSOl63d8b9Etn7Jm4FJS1lp8d8W9fGwQ6xu5SqrRu8e/p+FZv2a8W/LguziecV1ZpTqZPamG5nfmZs28SahA==",
+      "path": "font-awesome/4.7.0",
+      "hashPath": "font-awesome.4.7.0.nupkg.sha512"
+    },
+    "Font.Awesome/5.15.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Okg91rA7RWbd+eKyBNNnvlvzFee7A4yIi0WdTrJMVPos1ntONAVn/m96Ex9qvVXKKiroBZ1vtCXtpFMnHNof1g==",
+      "path": "font.awesome/5.15.4",
+      "hashPath": "font.awesome.5.15.4.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

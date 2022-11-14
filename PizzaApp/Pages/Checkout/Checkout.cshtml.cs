@@ -13,7 +13,7 @@ namespace PizzaApp.Pages.Checkout
 
     public class CheckoutModel : PageModel
     {
-        public string PizzaName { get; set; }
+        public string FoodName { get; set; }
         public float PizzaPrice { get; set; }
         public string ImageTitle { get; set; }
 
@@ -29,51 +29,36 @@ namespace PizzaApp.Pages.Checkout
         {
 
             if (
-             PizzaName == "Mushroom" ||
-             PizzaName == "Bolognese" ||
-             PizzaName == "Hasaiian" ||
-             PizzaName == "Carbonara" ||
-             PizzaName == "Pepperoni" ||
-             PizzaName == "Margerita" ||
-             PizzaName == "MeatFeast" ||
-             PizzaName == "Seafood" ||
-             PizzaName == "Vegetarian"
+             FoodName == "Mushroom" ||
+             FoodName == "Bolognese" ||
+             FoodName == "Hasaiian" ||
+             FoodName == "Carbonara" ||
+             FoodName == "Pepperoni" ||
+             FoodName == "Margerita" ||
+             FoodName == "MeatFeast" ||
+             FoodName == "Seafood" ||
+             FoodName == "Vegetarian"
              )
             {
-                PizzaName = PizzaName;
+                FoodName = FoodName;
             }
-            else if (string.IsNullOrWhiteSpace(PizzaName))
+            else if (string.IsNullOrWhiteSpace(FoodName))
             {
-                PizzaName = "Custom";
+                FoodName = "Custom";
             }
 
-
-            //if (
-            //    ImageTitle == "Mushroom" ||
-            //    ImageTitle =="Bolognese" ||
-            //    ImageTitle == "Hasaiian" ||
-            //    ImageTitle == "Carbonara" ||
-            //    ImageTitle == "Pepperoni" ||
-            //    ImageTitle == "Margerita" ||
-            //    ImageTitle == "MeatFeast" ||
-            //    ImageTitle == "Seafood" ||
-            //     ImageTitle == "Vegetarian"
-            //    )
-            //{
-            ////    ImageTitle = ImageTitle;
-            //}
-           if (string.IsNullOrWhiteSpace(ImageTitle))
+            if (string.IsNullOrWhiteSpace(ImageTitle))
             {
                 ImageTitle = "Create";
             }
 
-
             // database
             PizzaOrder pizzaOrder = new PizzaOrder();
-            pizzaOrder.PizzaName = PizzaName;
+            pizzaOrder.FoodName = FoodName;
+            //pizzaOrder.PizzaName = PizzaName;
             pizzaOrder.BasePrice = PizzaPrice;
 
-            _context.PizzaOrders.Add(pizzaOrder);
+            _context.FoodOrders.Add(pizzaOrder);
             _context.SaveChanges();
             //
         }

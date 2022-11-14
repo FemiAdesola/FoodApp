@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[3.125.12, )"
             },
+            "Font.Awesome": {
+              "target": "Package",
+              "version": "[5.15.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -60,6 +64,10 @@
             "dbup-consolescripts": {
               "target": "Package",
               "version": "[1.5.0, )"
+            },
+            "font-awesome": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
