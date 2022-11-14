@@ -1,7 +1,7 @@
 ﻿using System;
 namespace PizzaApp.Models
 {
-	public class PizzaOrder
+	public class FoodOrder
 	{
 		public int Id { get; set; }
 		public string FoodName { get; set; }

@@ -6,7 +6,7 @@ namespace PizzaApp.Data
 {
 	public class ApplicationDbContext: DbContext
 	{
-		public DbSet<PizzaOrder> FoodOrders { get; set; }
+		public DbSet<FoodOrder> FoodOrders { get; set; }
 
 		public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
 		{

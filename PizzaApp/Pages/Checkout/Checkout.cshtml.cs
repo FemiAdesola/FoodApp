@@ -53,12 +53,12 @@ namespace PizzaApp.Pages.Checkout
             }
 
             // database
-            PizzaOrder pizzaOrder = new PizzaOrder();
-            pizzaOrder.FoodName = FoodName;
+            FoodOrder foodOrder = new FoodOrder();
+            foodOrder.FoodName = FoodName;
             //pizzaOrder.PizzaName = PizzaName;
-            pizzaOrder.BasePrice = PizzaPrice;
+            foodOrder.BasePrice = PizzaPrice;
 
-            _context.FoodOrders.Add(pizzaOrder);
+            _context.FoodOrders.Add(foodOrder);
             _context.SaveChanges();
             //
         }

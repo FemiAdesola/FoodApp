@@ -12,7 +12,7 @@ namespace PizzaApp.Pages
 	public class OrdersModel : PageModel
     {
         private readonly ApplicationDbContext _context;
-        public List<PizzaOrder> FoodOrders = new List<PizzaOrder>();
+        public List<FoodOrder> FoodOrders = new List<FoodOrder>();
 
         public OrdersModel(ApplicationDbContext context)
         {
