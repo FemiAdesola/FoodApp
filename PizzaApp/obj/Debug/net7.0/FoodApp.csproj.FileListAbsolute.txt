@@ -29,6 +29,7 @@
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/NetlifySharp.dll
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/System.CodeDom.dll
 /Users/bc-macair033/Projects/PizzaApp/PizzaApp/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll

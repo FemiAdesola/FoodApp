@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.FoodApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Orders.cshtml.cs">
     <Files>
       <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="23" Column="11" />
