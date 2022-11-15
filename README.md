@@ -4,7 +4,7 @@
     - C# and .Net
     - SQL server
     - Docker
-    
+- Click this [link](https://femi-foodapp.herokuapp.com/) to see the app 
 ## Home page
 ![Front](/img/Front.png)
 
