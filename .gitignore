@@ -1,0 +1,9 @@
+# User-specific files
+PizzaApp/appsettings.json
+PizzaApp/appsettings.*.json
+PizzaApp/obj
+PizzaApp/bin
+PizzaApp/Migrations
+
+/obj
+/bin

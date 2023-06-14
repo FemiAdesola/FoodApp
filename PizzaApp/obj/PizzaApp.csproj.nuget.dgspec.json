@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj": {}
+    "/Users/femioyinloye/Projects/PizzaApp/PizzaApp/PizzaApp.csproj": {}
   },
   "projects": {
-    "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj": {
+    "/Users/femioyinloye/Projects/PizzaApp/PizzaApp/PizzaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
+        "projectUniqueName": "/Users/femioyinloye/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
         "projectName": "PizzaApp",
-        "projectPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
-        "packagesPath": "/Users/bc-macair033/.nuget/packages/",
-        "outputPath": "/Users/bc-macair033/Projects/PizzaApp/PizzaApp/obj/",
+        "projectPath": "/Users/femioyinloye/Projects/PizzaApp/PizzaApp/PizzaApp.csproj",
+        "packagesPath": "/Users/femioyinloye/.nuget/packages/",
+        "outputPath": "/Users/femioyinloye/Projects/PizzaApp/PizzaApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/bc-macair033/.nuget/NuGet/NuGet.Config"
+          "/Users/femioyinloye/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -43,13 +43,23 @@
               "target": "Package",
               "version": "[3.125.12, )"
             },
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
             "Font.Awesome": {
               "target": "Package",
               "version": "[5.15.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -64,6 +74,10 @@
             "NetlifySharp": {
               "target": "Package",
               "version": "[1.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "dbup-consolescripts": {
               "target": "Package",
@@ -93,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }

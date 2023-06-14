@@ -1,37 +1,44 @@
 ﻿<Properties StartupConfiguration="{C15BF8B7-CCF3-4806-B3B8-2460AB2A2E46}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/Pages/Checkout/Checkout.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PizzaApp/appsettings.json">
     <Files>
-      <File FileName="PizzaApp/Models/PizzasModel.cs" Line="22" Column="1" IsPinned="True" />
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="23" Column="11" />
-      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="60" Column="1" />
-      <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" Line="40" Column="1" />
-      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" Line="14" Column="7" />
-      <File FileName="PizzaApp/Program.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Models/PizzaOrder.cs" Line="11" Column="1" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml" Line="26" Column="1" />
+      <File FileName="PizzaApp/Pages/Checkout/Checkout.cshtml.cs" Line="62" Column="1" />
+      <File FileName="PizzaApp/Pages/Checkout/ThankYou.cshtml" />
+      <File FileName="PizzaApp/Pages/Forms/CustomPizza.cshtml.cs" />
+      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml" />
+      <File FileName="PizzaApp/Program.cs" />
       <File FileName="PizzaApp/appsettings.json" Line="14" Column="1" />
-      <File FileName="PizzaApp/appsettings.Development.json" Line="11" Column="1" />
-      <File FileName="PizzaApp/Pages/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml.css" Line="13" Column="1" />
-      <File FileName="PizzaApp/Data/ApplicationDbContext.cs" Line="18" Column="1" />
+      <File FileName="PizzaApp/appsettings.Development.json" />
+      <File FileName="PizzaApp/Pages/_ViewImports.cshtml" />
+      <File FileName="PizzaApp/Pages/Shared/_Layout.cshtml.css" />
+      <File FileName="PizzaApp/Data/ApplicationDbContext.cs" />
       <File FileName="PizzaApp/Dockerfile" />
-      <File FileName="PizzaApp/Migrations/20221114144534_PizzaOrder.Designer.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="PizzaApp/Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="PizzaApp/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="PizzaApp/Pages/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="PizzaApp/Pages/_ViewStart.cshtml" />
+      <File FileName="PizzaApp/Pages/Index.cshtml.cs" />
+      <File FileName="PizzaApp/wwwroot/js/site.js" />
+      <File FileName="PizzaApp/Pages/Pizza.cshtml" />
+      <File FileName="PizzaApp/Pages/Orders.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="PizzaApp" expanded="True">
+            <Node name="PizzaApp" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="FoodsModel.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PizzaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
